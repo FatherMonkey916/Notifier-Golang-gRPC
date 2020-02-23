@@ -1,0 +1,3 @@
+[submodule "proto"]
+	path = proto
+	url = https://github.com/chariot9/proto-notifier.git
