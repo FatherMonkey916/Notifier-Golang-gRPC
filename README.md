@@ -1,4 +1,4 @@
-# proto-notifier
+# Notifier - A server to streaming realtime data with Golang and Grpc
 
 ### Why?
 - Want to build a server to stream realtime data via Websocket with Golang!
