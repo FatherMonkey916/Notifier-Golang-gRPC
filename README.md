@@ -15,6 +15,10 @@
 - Server side(Golang) will distribute the twitter data to client via websocket proto
 - Java backend side: https://github.com/chariot9/twitter-kafka-streaming
 
+### Architecture:
+
+![architecture](../master/docs/img/architecture.jpg)
+
 1. Add git sub-module
 ```bash
 $ git submodule add https://github.com/chariot9/proto-notifier.git proto
