@@ -43,11 +43,10 @@ protoc -I/usr/local/include -I. \
 ### Run
 1. Start the gateway:
 ```bash
-notifier git:(master)$ go run gateway/cmd/main.go
+$ go run gateway/cmd/main.go
 ```
 
 2. Start the Grpc server:
 ```bash
-notifier git:(master)$ go run cmd/main.go
-
+$notifier git:(master)$ go run cmd/main.go
 ```
