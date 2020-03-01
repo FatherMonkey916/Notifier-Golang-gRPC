@@ -17,7 +17,7 @@
 
 ### Architecture:
 
-![architecture](../master/docs/img/architecture.jpg)
+![architecture](../master/docs/architecture.jpg)
 
 1. Add git sub-module
 ```bash
