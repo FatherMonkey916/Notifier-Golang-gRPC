@@ -13,6 +13,7 @@
 - Backend side by Java will use Kafka to connect to Twitter API to fetch realtime data by reigistering topics
 - Java side will send data via GRPC via stub to GRPC server(Golang)
 - Server side(Golang) will distribute the twitter data to client via websocket proto
+- Java backend side: https://github.com/chariot9/twitter-kafka-streaming
 
 1. Add git sub-module
 ```bash
