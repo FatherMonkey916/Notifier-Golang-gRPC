@@ -48,5 +48,5 @@ $ go run gateway/cmd/main.go
 
 2. Start the Grpc server:
 ```bash
-$ notifier git:(master)$ go run cmd/main.go
+$ go run cmd/main.go
 ```
