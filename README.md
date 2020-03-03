@@ -1,4 +1,4 @@
-# Notifier - A server to streaming realtime data with Golang and Grpc
+# Notifier - A server to streaming realtime data with Golang and gRPC
 
 ### Why?
 - Want to build a server to stream realtime data via Websocket with Golang!
@@ -7,11 +7,11 @@
 - Realtime twitter data by topic via websocket
 - Technologies: 
    + Languages: Server: Golang
-   + Proto: Grpc, websocket
+   + Proto: gPRC, websocket
 
 ### How?
 - Backend side by Java will use Kafka to connect to Twitter API to fetch realtime data by reigistering topics
-- Java side will send data via GRPC via stub to GRPC server(Golang)
+- Java side will send data via gRPC via stub to gRPC server(Golang)
 - Server side(Golang) will distribute the twitter data to client via websocket proto
 - Java backend side: https://github.com/chariot9/twitter-kafka-streaming
 
