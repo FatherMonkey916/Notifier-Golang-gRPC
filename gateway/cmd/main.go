@@ -12,6 +12,7 @@ import (
 	"google.golang.org/grpc"
 	"math/rand"
 	"net/http"
+	"notifier/gateway/wsproxy"
 	"notifier/grpc/notifier/twitter"
 	"time"
 )
@@ -75,7 +76,7 @@ func run() error {
 	httpMux.Handle("/", mux)
 	httpMux.Handle("/alive", aliveChain)
 	httpMux.Handle("/metrics", promhttp.Handler())
-	http.ListenAndServe(":8081", httpMux)
+	http.ListenAndServe(":8081", wsproxy.WebsocketProxy(httpMux))
 	return nil
 }
 
